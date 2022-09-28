@@ -183,7 +183,8 @@ img {
         display: block;
         margin: 0px;
         padding: 0;
-        height: 10px;
+        height: 30px;
+        text-align: center;
     }   
 
     .flex-list {
@@ -192,40 +193,77 @@ img {
     }
 
     .flex-loveproducts{        
-        height: 200px;  
+        height: 240px;
+        width: 250px;  
         margin-right: 0px;        
     }
     
+    .flex-loveproducts h1{        
+        text-align: center;
+    }
+
+    .flex-loveproducts p{        
+        width: 280px;
+    }
+
     .rated-card {
         border: 0;
         margin: 0;
         margin-top: 50px;
-        padding: 0;
-        
+        padding: 0;              
     }
     
     .rated-card .list-2 {
-        margin-left: 15px;
+        margin-left: 0px;
+        height: 40px;
+        width: 260px;
     }
 
+    .rated-card .list-1 {
+        margin-left: 0px;
+        height: 40px;
+        width: 260px;
+    }    
+   
+    .list-1 span{
+        margin-left: 20px;
+        margin-bottom: 8px;
+        align-items: center;
+    }
+
+    .list-2 span{
+        margin-left: 20px;
+        margin-bottom: 8px;
+        align-items: center;
+    }
     
+    .list-3 span{
+        margin-left: 20px;
+        margin-bottom: 8px;
+        align-items: center;
+    }
     .rated-card .list-3 {
-        margin-left: 15px;        
+        margin-left: 0px;        
+        height: 40px; 
+        width: 260px;
+        text-align: center;               
     }    
 
     .flex-card {               
        margin: 0;
        margin-top: 400px;
        flex-direction: column;              
-       padding: 0;       
+       padding: 0;              
     }
     
     .attribution{
         margin-top: 450px;
+        text-align: left;
     }
 
     .user-card{
-        margin-top: 100px;        
+        margin-top: 150px;        
+        width: 235px;
     }   
 
     .user-card-2{
