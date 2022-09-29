@@ -226,23 +226,48 @@ img {
         width: 260px;
     }    
    
-    .list-1 span{
-        margin-left: 20px;
+    .list-1 span{        
         margin-bottom: 8px;
         align-items: center;
+        margin-right: 5px;
     }
 
-    .list-2 span{
-        margin-left: 20px;
+    .list-1 span:first-child{
+        margin-left: 60px;
+    }
+
+    .list-1 span:last-child{
+        margin-right: 50px;
+    }
+
+    .list-2 span{        
         margin-bottom: 8px;
         align-items: center;
+        margin-right: 5px;
+    }    
+
+    .list-2 span:first-child{
+        margin-left: 60px;
+    }
+
+    .list-2 span:last-child{
+        margin-right: 50px;
     }
     
-    .list-3 span{
-        margin-left: 20px;
+    .list-3 span{        
         margin-bottom: 8px;
         align-items: center;
+        margin-right: 5px;
     }
+
+    .list-3 span:first-child{
+        margin-left: 60px;
+    }
+
+    .list-3 span:last-child{
+        margin-right: 50px;
+    }
+
     .rated-card .list-3 {
         margin-left: 0px;        
         height: 40px; 
@@ -260,6 +285,7 @@ img {
     .attribution{
         margin-top: 450px;
         text-align: left;
+        margin-bottom: 0;
     }
 
     .user-card{
