@@ -177,7 +177,7 @@ img {
 @media (max-width: 780px){
     body {
         margin: 0;
-        margin-left: 40px;
+        margin-left: 30px;
         padding: 30px;        
     }
     .flex-principal {
